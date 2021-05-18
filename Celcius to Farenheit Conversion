@@ -1,0 +1,11 @@
+import java.util.*;
+public class CelsiusConversion
+{
+    public static void main (String[] args) {
+        Scanner sc=new Scanner(System.in);
+        double num =sc.nextDouble();
+        double num1 =(((9*num)/5)+32);
+        System.out.printf("%.1f",num1);
+    }
+    
+}
